@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('background.jpeg');
+             /* background-repeat:no-repeat;
+            background-size: cover; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <button  class="close-button" onclick="closeSidebar()">&times;</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="new_page.html">News</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <button class="open-button" onclick="openSidebar()">&#9776;</button>
+         <div class="index_page">
+        <div class="header">
+            <!-- <img src="" alt="Miss Information Detection Tool Logo"> -->
+            <h2>Welcome to the Miss Information Detection Tool</h2>
+        </div>
+
+        <div class="content-container">
+            <div class="submission-box">
+                <h3>Submit News for Checking</h3>
+                <form  method="POST">
+                    <textarea name="news" id="news" rows="8" placeholder="Enter the news to check"></textarea>
+                    <div class="input-group">
+                        <input type="submit" class="sb" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+   
+</body>
+<script>
+  function openSidebar() {
+    document.querySelector(".sidebar").style.width = "12rem";
+    document.querySelector(".open-button").style.visibility = "hidden";
+}
+
+function closeSidebar() {
+    document.querySelector(".sidebar").style.width = "0";
+    document.querySelector(".open-button").style.visibility = "visible";
+}
+
+</script>
+
+</html>

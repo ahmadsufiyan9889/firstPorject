@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* body {
+    width: vw;
+    height: vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow:hidden;
+} */
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#e7dddd;
+
+    color:black;
+    overflow-x: hidden;
+    transition:all 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.close-button {
+    position: relative;
+    top:0;
+    left: 80%;
+    margin-top:2px;
+    background-color: transparent;
+    color:black;
+    border-radius: 10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 1rem;
+    margin-left: 0.4rem;
+    
+}
+
+.nav-links li {
+    margin: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;  
+}
+
+.open-button {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.login-container {
+    width: 360px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width:40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.input-group input {
+    width: 80%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    
+}
+
+.input-group input[type="submit"] {
+    background-color: #0073b1;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #005c99;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+p a {
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ... Your existing CSS styles ... */
+
+.index_page
+{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    margin: auto;
+}
+.header {
+    width:70%;
+    margin: auto;
+    text-align: center;
+    background-color: #0073b1;
+    padding: 20px;
+    color: #fff;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.content-container {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.submission-box h3 {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.submission-box textarea {
+    width: 95%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.submission-box input[type="submit"] {
+    background-color: #0073b1;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submission-box input[type="submit"]:hover {
+    background-color: #005c99;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    width: 360px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.input-group label {
+    display: block;
+}
+
+.input-group input {
+    width: 80%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.input-group input[type="submit"] {
+    background-color: #0073b1;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #005c99;
+}
+
+/* news page */
+
+
+ 

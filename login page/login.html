@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Miss Information Detection Tool</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="img-data">
+            <div >
+                <img src="searching-icon.png" alt="">
+            </div>
+            <b style="font-size: 20px;">Miss Information Detection Tool</b>
+        </div>
+        <h2>Login </h2>
+        <div method="post">
+            <div class="input-group">
+                <input type="text" id="username" name="username" placeholder="Username or Email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="LOGIN" onclick="homePage()">
+            </div>
+            <div class="forgot-password">
+                <a href="#">Forgot your password?</a>
+            </div>
+            <p>Don't have an account? <a href="singUp.html">Sign up now</a></p>
+            </form>
+        </div>
+        <script>
+            function homePage() {
+                location.replace("http://127.0.0.1:5500/index.html")
+            }
+        </script>
+        
+</body>
+
+</html>

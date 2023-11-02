@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="signup-container">
+        <div class="img-data" >
+            <div>
+                <img src="searching-icon.png" alt="">
+            </div>
+            <b style="font-size: 20px;">Miss Information Detection Tool</b>
+        </div>
+        <h2>Sign Up</h2>
+        <form action="register.php" method="POST">
+            <div class="input-group">
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="Email address" required>
+            </div>
+            <div class="input-group">
+                <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm password" required>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Sign Up" onclick="homePage()">
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function homePage() {
+            location.replace("http://127.0.0.1:5500/index.html")
+        }
+    </script>
+</body>
+</html>
